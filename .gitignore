@@ -1,0 +1,21 @@
+# OS and Editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets and sensitive files
+*.env
+*.key
+passwd
+mosquitto/config/passwd
+*.token
+tokens.txt
+*.bak
+
+# Backups and archives
+*.tar.gz
+*.zip
+*.log
